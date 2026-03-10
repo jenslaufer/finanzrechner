@@ -1,17 +1,41 @@
-# Finanzrechner
+# Finanzkalkulatoren
 
-> Kostenlose Online-Finanzrechner für Zinseszins, Kredite, Sparpläne und Inflation.
+> 16 kostenlose Online-Finanzrechner — Deutsch und Englisch, ohne Anmeldung.
 
-## Rechner
+## Deutsch
 
-- [Zinseszinsrechner](https://jenslaufer.github.io/finanzrechner/de/zinseszinsrechner): Berechne Endkapital mit Startbetrag, monatlicher Sparrate und Zinseszins.
-- [Kreditrechner](https://jenslaufer.github.io/finanzrechner/de/kreditrechner): Berechne monatliche Rate, Gesamtkosten und Zinskosten für Annuitätendarlehen.
-- [Sparplanrechner](https://jenslaufer.github.io/finanzrechner/de/sparplanrechner): Berechne Sparergebnis mit optionalem Anfangskapital und monatlicher Sparrate.
-- [Inflationsrechner](https://jenslaufer.github.io/finanzrechner/de/inflationsrechner): Berechne den Kaufkraftverlust über Zeit bei gegebener Inflationsrate.
+- [Zinseszinsrechner](https://finanzkalkulatoren.com/de/zinseszinsrechner): Wie viel wird aus meinem Geld?
+- [Kreditrechner](https://finanzkalkulatoren.com/de/kreditrechner): Was kostet mein Kredit wirklich?
+- [Sparplanrechner](https://finanzkalkulatoren.com/de/sparplanrechner): Wie viel spare ich bis zur Rente?
+- [Inflationsrechner](https://finanzkalkulatoren.com/de/inflationsrechner): Was ist mein Geld in Zukunft wert?
+- [Tilgungsrechner](https://finanzkalkulatoren.com/de/tilgungsrechner): Wann bin ich schuldenfrei?
+- [Renditerechner](https://finanzkalkulatoren.com/de/renditerechner): Wie gut war meine Geldanlage?
+- [Mietrenditerechner](https://finanzkalkulatoren.com/de/mietrenditerechner): Lohnt sich meine Immobilie?
+- [Prozentrechner](https://finanzkalkulatoren.com/de/prozentrechner): Prozente schnell berechnen.
+- [72er-Regel-Rechner](https://finanzkalkulatoren.com/de/72er-regel-rechner): Wann verdoppelt sich mein Geld?
+- [Opportunitätskostenrechner](https://finanzkalkulatoren.com/de/opportunitaetskostenrechner): Was kostet mich diese Ausgabe wirklich?
+- [FIRE-Rechner](https://finanzkalkulatoren.com/de/fire-rechner): Wann kann ich aufhören zu arbeiten?
+- [Notgroschenrechner](https://finanzkalkulatoren.com/de/notgroschenrechner): Wie viel Rücklage brauche ich?
+- [Kaufen vs. Mieten](https://finanzkalkulatoren.com/de/kaufen-vs-mieten): Was lohnt sich mehr?
+- [Lifestyle-Inflation-Rechner](https://finanzkalkulatoren.com/de/lifestyle-inflation-rechner): Was kostet mich meine Gehaltserhöhung?
+- [Coast-FIRE-Rechner](https://finanzkalkulatoren.com/de/coast-fire-rechner): Kann ich aufhören zu sparen?
+- [Entnahmeplan-Simulation](https://finanzkalkulatoren.com/de/monte-carlo-simulation): Reicht mein Geld im Ruhestand?
 
 ## English
 
-- [Compound Interest Calculator](https://jenslaufer.github.io/finanzrechner/en/compound-interest-calculator)
-- [Loan Calculator](https://jenslaufer.github.io/finanzrechner/en/loan-calculator)
-- [Savings Plan Calculator](https://jenslaufer.github.io/finanzrechner/en/savings-plan-calculator)
-- [Inflation Calculator](https://jenslaufer.github.io/finanzrechner/en/inflation-calculator)
+- [Compound Interest Calculator](https://finanzkalkulatoren.com/en/compound-interest-calculator)
+- [Loan Calculator](https://finanzkalkulatoren.com/en/loan-calculator)
+- [Savings Plan Calculator](https://finanzkalkulatoren.com/en/savings-plan-calculator)
+- [Inflation Calculator](https://finanzkalkulatoren.com/en/inflation-calculator)
+- [Mortgage Calculator](https://finanzkalkulatoren.com/en/mortgage-calculator)
+- [ROI Calculator](https://finanzkalkulatoren.com/en/roi-calculator)
+- [Rental Yield Calculator](https://finanzkalkulatoren.com/en/rental-yield-calculator)
+- [Percentage Calculator](https://finanzkalkulatoren.com/en/percentage-calculator)
+- [Rule of 72 Calculator](https://finanzkalkulatoren.com/en/rule-of-72-calculator)
+- [Opportunity Cost Calculator](https://finanzkalkulatoren.com/en/opportunity-cost-calculator)
+- [FIRE Calculator](https://finanzkalkulatoren.com/en/fire-calculator)
+- [Emergency Fund Calculator](https://finanzkalkulatoren.com/en/emergency-fund-calculator)
+- [Buy vs Rent Calculator](https://finanzkalkulatoren.com/en/buy-vs-rent-calculator)
+- [Lifestyle Inflation Calculator](https://finanzkalkulatoren.com/en/lifestyle-inflation-calculator)
+- [Coast FIRE Calculator](https://finanzkalkulatoren.com/en/coast-fire-calculator)
+- [Withdrawal Plan Simulation](https://finanzkalkulatoren.com/en/monte-carlo-simulation)
