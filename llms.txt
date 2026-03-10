@@ -1,0 +1,17 @@
+# Finanzrechner
+
+> Kostenlose Online-Finanzrechner für Zinseszins, Kredite, Sparpläne und Inflation.
+
+## Rechner
+
+- [Zinseszinsrechner](https://jenslaufer.github.io/finanzrechner/de/zinseszinsrechner): Berechne Endkapital mit Startbetrag, monatlicher Sparrate und Zinseszins.
+- [Kreditrechner](https://jenslaufer.github.io/finanzrechner/de/kreditrechner): Berechne monatliche Rate, Gesamtkosten und Zinskosten für Annuitätendarlehen.
+- [Sparplanrechner](https://jenslaufer.github.io/finanzrechner/de/sparplanrechner): Berechne Sparergebnis mit optionalem Anfangskapital und monatlicher Sparrate.
+- [Inflationsrechner](https://jenslaufer.github.io/finanzrechner/de/inflationsrechner): Berechne den Kaufkraftverlust über Zeit bei gegebener Inflationsrate.
+
+## English
+
+- [Compound Interest Calculator](https://jenslaufer.github.io/finanzrechner/en/compound-interest-calculator)
+- [Loan Calculator](https://jenslaufer.github.io/finanzrechner/en/loan-calculator)
+- [Savings Plan Calculator](https://jenslaufer.github.io/finanzrechner/en/savings-plan-calculator)
+- [Inflation Calculator](https://jenslaufer.github.io/finanzrechner/en/inflation-calculator)
