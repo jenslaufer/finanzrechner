@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Allow: /blog/
 
 Sitemap: https://finanzkalkulatoren.com/sitemap.xml
