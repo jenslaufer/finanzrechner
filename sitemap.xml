@@ -219,14 +219,38 @@
   </url>
   <url>
     <loc>https://finanzkalkulatoren.com/blog/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://finanzkalkulatoren.com/blog/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://finanzkalkulatoren.com/blog/en/"/>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://finanzkalkulatoren.com/blog/en/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://finanzkalkulatoren.com/blog/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://finanzkalkulatoren.com/blog/en/"/>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://finanzkalkulatoren.com/blog/zinseszins-einfach-erklaert.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://finanzkalkulatoren.com/blog/zinseszins-einfach-erklaert.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://finanzkalkulatoren.com/blog/en/compound-interest-explained.html"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://finanzkalkulatoren.com/blog/en/compound-interest-explained.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://finanzkalkulatoren.com/blog/zinseszins-einfach-erklaert.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://finanzkalkulatoren.com/blog/en/compound-interest-explained.html"/>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://finanzkalkulatoren.com/blog/fire-bewegung-finanziell-unabhaengig.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://finanzkalkulatoren.com/blog/fire-bewegung-finanziell-unabhaengig.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://finanzkalkulatoren.com/blog/en/fire-movement-financial-independence.html"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://finanzkalkulatoren.com/blog/en/fire-movement-financial-independence.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://finanzkalkulatoren.com/blog/fire-bewegung-finanziell-unabhaengig.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://finanzkalkulatoren.com/blog/en/fire-movement-financial-independence.html"/>
     <priority>0.8</priority>
   </url>
   <url>
@@ -255,10 +279,26 @@
   </url>
   <url>
     <loc>https://finanzkalkulatoren.com/blog/kaufen-oder-mieten-2026.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://finanzkalkulatoren.com/blog/kaufen-oder-mieten-2026.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://finanzkalkulatoren.com/blog/en/buy-or-rent-2026.html"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://finanzkalkulatoren.com/blog/en/buy-or-rent-2026.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://finanzkalkulatoren.com/blog/kaufen-oder-mieten-2026.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://finanzkalkulatoren.com/blog/en/buy-or-rent-2026.html"/>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://finanzkalkulatoren.com/blog/etf-sparplan-berechnen.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://finanzkalkulatoren.com/blog/etf-sparplan-berechnen.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://finanzkalkulatoren.com/blog/en/etf-savings-plan-calculator.html"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://finanzkalkulatoren.com/blog/en/etf-savings-plan-calculator.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://finanzkalkulatoren.com/blog/etf-sparplan-berechnen.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://finanzkalkulatoren.com/blog/en/etf-savings-plan-calculator.html"/>
     <priority>0.8</priority>
   </url>
 </urlset>
