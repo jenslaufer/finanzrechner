@@ -33,6 +33,7 @@
   "src/utils/calculations.js": [],
   "src/utils/montecarlo.js": [],
   "src/utils/structuredData.js": [],
+  "src/views/BaufinanzierungsRechner.vue": [],
   "src/views/BruttoNettoRechner.vue": [],
   "src/views/CoastFireRechner.vue": [],
   "src/views/Datenschutz.vue": [],
