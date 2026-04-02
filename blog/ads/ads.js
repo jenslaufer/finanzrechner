@@ -14,9 +14,17 @@ const blogAdConfig = {
     de: { text: 'Baufinanzierung vergleichen \u2014 günstige Zinsen bei DTW.', url: 'https://www.financeads.net/tc.php?t=83062C74932702T', cta: 'Zinsen vergleichen', program: 'DTW Immobilienfinanzierung' },
     en: { text: 'Compare mortgage rates \u2014 low rates at DTW.', url: 'https://www.financeads.net/tc.php?t=83062C74932702T', cta: 'Compare rates', program: 'DTW Immobilienfinanzierung' },
   },
+  loans: {
+    de: { text: 'Kredit gesucht? Santander BestCredit — schnell, flexibel, günstig.', url: 'https://www.financeads.net/tc.php?t=83062C19318411T', cta: 'Kredit berechnen', program: 'Santander Consumer Bank' },
+    en: { text: 'Need a loan? Santander BestCredit — fast, flexible, affordable.', url: 'https://www.financeads.net/tc.php?t=83062C19318411T', cta: 'Calculate loan', program: 'Santander Consumer Bank' },
+  },
   fire: {
-    de: { text: 'Finanzielle Freiheit planen? Digitale Vermögensverwaltung ab 1.500 \u20ac.', url: 'https://www.financeads.net/tc.php?t=83062C4278103360T', cta: 'Jetzt starten', program: 'froots' },
-    en: { text: 'Planning financial freedom? Digital wealth management from \u20ac1,500.', url: 'https://www.financeads.net/tc.php?t=83062C4278103360T', cta: 'Get started', program: 'froots' },
+    de: { text: 'Finanzielle Freiheit planen? Digitale Vermögensverwaltung ab 1.500 €.', url: 'https://www.financeads.net/tc.php?t=83062C4278103360T', cta: 'Jetzt starten', program: 'froots' },
+    en: { text: 'Planning financial freedom? Digital wealth management from €1,500.', url: 'https://www.financeads.net/tc.php?t=83062C4278103360T', cta: 'Get started', program: 'froots' },
+  },
+  tagesgeld: {
+    de: { text: 'Attraktive Tagesgeld-Zinsen bei der DISTINGO Bank — sicher und flexibel.', url: 'https://www.financeads.net/tc.php?t=83062C5423128408T', cta: 'Konto eröffnen', program: 'DISTINGO Bank' },
+    en: { text: 'Attractive savings rates at DISTINGO Bank — secure and flexible.', url: 'https://www.financeads.net/tc.php?t=83062C5423128408T', cta: 'Open account', program: 'DISTINGO Bank' },
   },
 };
 
