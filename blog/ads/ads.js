@@ -1,22 +1,22 @@
 // Blog ad configuration — mirrors src/ads/config.js for static HTML articles
-// URLs marked # are placeholders — replace with real tracking links after network registration
+// Programs updated 2026-04-02 from active financeAds partnerships
 
 const blogAdConfig = {
   default: {
-    de: { text: 'Noch kein Depot? Vergleiche die besten Anbieter.', url: '#', cta: 'Jetzt vergleichen', program: 'Scalable Capital' },
-    en: { text: "Don't have a brokerage account yet? Compare the best providers.", url: '#', cta: 'Compare now', program: 'Scalable Capital' },
+    de: { text: 'Geldanlage neu gedacht: Investieren, bezahlen und sparen in einer App.', url: 'https://www.financeads.net/tc.php?t=83062C4514102816T', cta: 'Jetzt entdecken', program: 'UnitPlus' },
+    en: { text: 'Investing reimagined: invest, pay and save in one app.', url: 'https://www.financeads.net/tc.php?t=83062C4514102816T', cta: 'Discover now', program: 'UnitPlus' },
   },
   investing: {
-    de: { text: 'Kostenloses Depot eröffnen und ETF-Sparplan ab 1 \u20ac starten.', url: '#', cta: 'Depot eröffnen', program: 'Scalable Capital' },
-    en: { text: 'Open a free brokerage account and start an ETF savings plan from \u20ac1.', url: '#', cta: 'Open account', program: 'Scalable Capital' },
+    de: { text: 'Geldanlage neu gedacht: Investieren, bezahlen und sparen in einer App.', url: 'https://www.financeads.net/tc.php?t=83062C4514102816T', cta: 'Konto eröffnen', program: 'UnitPlus' },
+    en: { text: 'Investing reimagined: invest, pay and save in one app.', url: 'https://www.financeads.net/tc.php?t=83062C4514102816T', cta: 'Open account', program: 'UnitPlus' },
   },
   property: {
-    de: { text: 'Baufinanzierung vergleichen \u2014 Deutschlands gr\u00f6\u00dfter Vermittler.', url: '#', cta: 'Zinsen vergleichen', program: 'Interhyp' },
-    en: { text: "Compare mortgage rates \u2014 Germany's largest broker.", url: '#', cta: 'Compare rates', program: 'Interhyp' },
+    de: { text: 'Baufinanzierung vergleichen \u2014 günstige Zinsen bei DTW.', url: 'https://www.financeads.net/tc.php?t=83062C74932702T', cta: 'Zinsen vergleichen', program: 'DTW Immobilienfinanzierung' },
+    en: { text: 'Compare mortgage rates \u2014 low rates at DTW.', url: 'https://www.financeads.net/tc.php?t=83062C74932702T', cta: 'Compare rates', program: 'DTW Immobilienfinanzierung' },
   },
   fire: {
-    de: { text: 'Finanzielle Freiheit planen? ETF-Sparplan ab 1 \u20ac starten.', url: '#', cta: 'Sparplan starten', program: 'Scalable Capital' },
-    en: { text: 'Planning financial freedom? Start an ETF savings plan from \u20ac1.', url: '#', cta: 'Start saving', program: 'Scalable Capital' },
+    de: { text: 'Finanzielle Freiheit planen? Digitale Vermögensverwaltung ab 1.500 \u20ac.', url: 'https://www.financeads.net/tc.php?t=83062C4278103360T', cta: 'Jetzt starten', program: 'froots' },
+    en: { text: 'Planning financial freedom? Digital wealth management from \u20ac1,500.', url: 'https://www.financeads.net/tc.php?t=83062C4278103360T', cta: 'Get started', program: 'froots' },
   },
 };
 
