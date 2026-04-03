@@ -20,6 +20,7 @@
 - [Lifestyle-Inflation-Rechner](https://finanzkalkulatoren.com/de/lifestyle-inflation-rechner): Was kostet mich meine Gehaltserhöhung?
 - [Coast-FIRE-Rechner](https://finanzkalkulatoren.com/de/coast-fire-rechner): Kann ich aufhören zu sparen?
 - [Entnahmeplan-Simulation](https://finanzkalkulatoren.com/de/monte-carlo-simulation): Reicht mein Geld im Ruhestand?
+- [Gehaltsrechner](https://finanzkalkulatoren.com/de/gehaltsrechner): Was bleibt vom Gehalt? Mit Arbeitgeberkosten, GKV/PKV und Steuerklasse.
 
 ## English
 
@@ -39,3 +40,4 @@
 - [Lifestyle Inflation Calculator](https://finanzkalkulatoren.com/en/lifestyle-inflation-calculator)
 - [Coast FIRE Calculator](https://finanzkalkulatoren.com/en/coast-fire-calculator)
 - [Withdrawal Plan Simulation](https://finanzkalkulatoren.com/en/monte-carlo-simulation)
+- [Salary Calculator](https://finanzkalkulatoren.com/en/salary-calculator)
