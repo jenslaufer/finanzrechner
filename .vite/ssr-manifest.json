@@ -25,7 +25,6 @@
   "src/ads/config.js": [],
   "src/components/AdSlot.vue": [],
   "src/components/AffiliateBanner.vue": [],
-  "src/components/JsonLd.vue": [],
   "src/composables/usePageMeta.js": [],
   "src/discovery.js": [],
   "src/i18n.js": [],
