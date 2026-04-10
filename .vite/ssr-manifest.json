@@ -61,6 +61,7 @@
   "src/locales/calculators/salary.json": [],
   "src/locales/calculators/savings.json": [],
   "src/locales/calculators/savingsComparison.json": [],
+  "src/locales/calculators/unterhaltsrechner.json": [],
   "src/locales/calculators/vat.json": [],
   "src/locales/calculators/wohngeld.json": [],
   "src/locales/common.json": [],
@@ -106,6 +107,7 @@
   "src/views/Stundenlohnrechner.vue": [],
   "src/views/TagesgeldVergleich.vue": [],
   "src/views/Tilgungsrechner.vue": [],
+  "src/views/UnterhaltsRechner.vue": [],
   "src/views/WohngeldrechnerView.vue": [],
   "src/views/Zinseszinsrechner.vue": []
 }
