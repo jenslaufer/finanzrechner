@@ -182,6 +182,18 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://finanzkalkulatoren.com/de/grundsteuerrechner</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://finanzkalkulatoren.com/de/grundsteuerrechner"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://finanzkalkulatoren.com/en/property-tax-calculator"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://finanzkalkulatoren.com/en/property-tax-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://finanzkalkulatoren.com/de/grundsteuerrechner"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://finanzkalkulatoren.com/en/property-tax-calculator"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://finanzkalkulatoren.com/de/stundenlohnrechner</loc>
     <xhtml:link rel="alternate" hreflang="de" href="https://finanzkalkulatoren.com/de/stundenlohnrechner"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://finanzkalkulatoren.com/en/hourly-wage-calculator"/>
@@ -695,6 +707,18 @@
     <loc>https://finanzkalkulatoren.com/blog/en/real-estate-transfer-tax-germany.html</loc>
     <xhtml:link rel="alternate" hreflang="de" href="https://finanzkalkulatoren.com/blog/grunderwerbsteuer-bundeslaender.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://finanzkalkulatoren.com/blog/en/real-estate-transfer-tax-germany.html"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://finanzkalkulatoren.com/blog/grundsteuer-berechnen.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://finanzkalkulatoren.com/blog/grundsteuer-berechnen.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://finanzkalkulatoren.com/blog/en/german-property-tax-calculator.html"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://finanzkalkulatoren.com/blog/en/german-property-tax-calculator.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://finanzkalkulatoren.com/blog/grundsteuer-berechnen.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://finanzkalkulatoren.com/blog/en/german-property-tax-calculator.html"/>
     <priority>0.8</priority>
   </url>
   <url>
