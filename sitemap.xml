@@ -302,6 +302,18 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://finanzkalkulatoren.com/de/minijob-rechner/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://finanzkalkulatoren.com/de/minijob-rechner/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://finanzkalkulatoren.com/en/mini-job-calculator/"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://finanzkalkulatoren.com/en/mini-job-calculator/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://finanzkalkulatoren.com/de/minijob-rechner/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://finanzkalkulatoren.com/en/mini-job-calculator/"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://finanzkalkulatoren.com/de/monte-carlo-simulation/</loc>
     <xhtml:link rel="alternate" hreflang="de" href="https://finanzkalkulatoren.com/de/monte-carlo-simulation/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://finanzkalkulatoren.com/en/monte-carlo-simulation/"/>
@@ -879,6 +891,18 @@
     <loc>https://finanzkalkulatoren.com/blog/en/rental-yield-calculator.html</loc>
     <xhtml:link rel="alternate" hreflang="de" href="https://finanzkalkulatoren.com/blog/mietrendite-berechnen.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://finanzkalkulatoren.com/blog/en/rental-yield-calculator.html"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://finanzkalkulatoren.com/blog/minijob-rechner.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://finanzkalkulatoren.com/blog/minijob-rechner.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://finanzkalkulatoren.com/blog/en/minijob-calculator-germany.html"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://finanzkalkulatoren.com/blog/en/minijob-calculator-germany.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://finanzkalkulatoren.com/blog/minijob-rechner.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://finanzkalkulatoren.com/blog/en/minijob-calculator-germany.html"/>
     <priority>0.8</priority>
   </url>
   <url>
