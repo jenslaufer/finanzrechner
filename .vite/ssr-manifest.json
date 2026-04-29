@@ -80,6 +80,7 @@
   "src/locales/calculators/unterhaltsrechner.json": [],
   "src/locales/calculators/vat.json": [],
   "src/locales/calculators/vermietung.json": [],
+  "src/locales/calculators/werbungskosten.json": [],
   "src/locales/calculators/wohngeld.json": [],
   "src/locales/common.json": [],
   "src/main.js": [],
@@ -98,6 +99,7 @@
   "src/utils/ruerupRenteCalculation.js": [],
   "src/utils/structuredData.js": [],
   "src/utils/vermietungCalculation.js": [],
+  "src/utils/werbungskostenCalculation.js": [],
   "src/views/Abfindungsrechner.vue": [],
   "src/views/ArbeitslosengeldRechner.vue": [],
   "src/views/BaufinanzierungsRechner.vue": [],
@@ -150,6 +152,7 @@
   "src/views/Tilgungsrechner.vue": [],
   "src/views/UnterhaltsRechner.vue": [],
   "src/views/VermietungRechner.vue": [],
+  "src/views/WerbungskostenRechner.vue": [],
   "src/views/WohngeldrechnerView.vue": [],
   "src/views/Zinseszinsrechner.vue": []
 }
