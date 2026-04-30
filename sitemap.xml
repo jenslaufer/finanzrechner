@@ -542,6 +542,18 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://finanzkalkulatoren.com/de/sonderausgabenrechner/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://finanzkalkulatoren.com/de/sonderausgabenrechner/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://finanzkalkulatoren.com/en/special-expenses-deduction-calculator/"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://finanzkalkulatoren.com/en/special-expenses-deduction-calculator/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://finanzkalkulatoren.com/de/sonderausgabenrechner/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://finanzkalkulatoren.com/en/special-expenses-deduction-calculator/"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://finanzkalkulatoren.com/de/spekulationssteuerrechner/</loc>
     <xhtml:link rel="alternate" hreflang="de" href="https://finanzkalkulatoren.com/de/spekulationssteuerrechner/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://finanzkalkulatoren.com/en/speculation-tax-calculator-germany/"/>
@@ -1155,6 +1167,18 @@
     <loc>https://finanzkalkulatoren.com/blog/en/gift-tax-calculator-germany.html</loc>
     <xhtml:link rel="alternate" hreflang="de" href="https://finanzkalkulatoren.com/blog/schenkungsteuer-berechnen.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://finanzkalkulatoren.com/blog/en/gift-tax-calculator-germany.html"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://finanzkalkulatoren.com/blog/sonderausgaben-absetzen.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://finanzkalkulatoren.com/blog/sonderausgaben-absetzen.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://finanzkalkulatoren.com/blog/en/special-expenses-deduction-germany.html"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://finanzkalkulatoren.com/blog/en/special-expenses-deduction-germany.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://finanzkalkulatoren.com/blog/sonderausgaben-absetzen.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://finanzkalkulatoren.com/blog/en/special-expenses-deduction-germany.html"/>
     <priority>0.8</priority>
   </url>
   <url>
