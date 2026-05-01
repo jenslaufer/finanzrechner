@@ -84,6 +84,7 @@
   "src/locales/calculators/vermietung.json": [],
   "src/locales/calculators/werbungskosten.json": [],
   "src/locales/calculators/wohngeld.json": [],
+  "src/locales/calculators/zahnzusatzversicherung.json": [],
   "src/locales/common.json": [],
   "src/main.js": [],
   "src/routes.js": [],
@@ -104,6 +105,7 @@
   "src/utils/structuredData.js": [],
   "src/utils/vermietungCalculation.js": [],
   "src/utils/werbungskostenCalculation.js": [],
+  "src/utils/zahnzusatzversicherungCalculation.js": [],
   "src/views/Abfindungsrechner.vue": [],
   "src/views/ArbeitslosengeldRechner.vue": [],
   "src/views/BaufinanzierungsRechner.vue": [],
@@ -160,5 +162,6 @@
   "src/views/VermietungRechner.vue": [],
   "src/views/WerbungskostenRechner.vue": [],
   "src/views/WohngeldrechnerView.vue": [],
+  "src/views/ZahnzusatzversicherungRechner.vue": [],
   "src/views/Zinseszinsrechner.vue": []
 }
