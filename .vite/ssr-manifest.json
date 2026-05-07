@@ -50,6 +50,7 @@
   "src/locales/calculators/fruehrente.json": [],
   "src/locales/calculators/gewerbesteuer.json": [],
   "src/locales/calculators/grunderwerbsteuer.json": [],
+  "src/locales/calculators/grundrente.json": [],
   "src/locales/calculators/grundsteuer.json": [],
   "src/locales/calculators/handwerkerkosten.json": [],
   "src/locales/calculators/hourlyWage.json": [],
