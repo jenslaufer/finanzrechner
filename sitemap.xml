@@ -134,6 +134,18 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://finanzkalkulatoren.com/de/crypto-steuer-rechner/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://finanzkalkulatoren.com/de/crypto-steuer-rechner/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://finanzkalkulatoren.com/en/crypto-tax-calculator-germany/"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://finanzkalkulatoren.com/en/crypto-tax-calculator-germany/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://finanzkalkulatoren.com/de/crypto-steuer-rechner/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://finanzkalkulatoren.com/en/crypto-tax-calculator-germany/"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://finanzkalkulatoren.com/de/dividendenrechner/</loc>
     <xhtml:link rel="alternate" hreflang="de" href="https://finanzkalkulatoren.com/de/dividendenrechner/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://finanzkalkulatoren.com/en/dividend-calculator/"/>
@@ -927,6 +939,18 @@
     <loc>https://finanzkalkulatoren.com/blog/en/coast-fire-explained.html</loc>
     <xhtml:link rel="alternate" hreflang="de" href="https://finanzkalkulatoren.com/blog/coast-fire-erklaert.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://finanzkalkulatoren.com/blog/en/coast-fire-explained.html"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://finanzkalkulatoren.com/blog/crypto-steuer-berechnen.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://finanzkalkulatoren.com/blog/crypto-steuer-berechnen.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://finanzkalkulatoren.com/blog/en/crypto-tax-germany.html"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://finanzkalkulatoren.com/blog/en/crypto-tax-germany.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://finanzkalkulatoren.com/blog/crypto-steuer-berechnen.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://finanzkalkulatoren.com/blog/en/crypto-tax-germany.html"/>
     <priority>0.8</priority>
   </url>
   <url>

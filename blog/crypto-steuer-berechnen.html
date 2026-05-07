@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crypto-Steuer berechnen 2026: Bitcoin, FIFO und Freigrenze nach §23 EStG erklärt</title>
+  <meta name="description" content="Crypto-Steuer 2026: Bitcoin, Ethereum & Co. nach §23 EStG. FIFO-Methode, 1-Jahres-Haltefrist, Freigrenze 1.000 €, persönlicher ESt-Satz. Mit Rechenbeispielen und kostenlosem Crypto-Steuer-Rechner.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://finanzkalkulatoren.com/blog/crypto-steuer-berechnen.html">
+  <link rel="alternate" hreflang="de" href="https://finanzkalkulatoren.com/blog/crypto-steuer-berechnen.html">
+  <link rel="alternate" hreflang="en" href="https://finanzkalkulatoren.com/blog/en/crypto-tax-germany.html">
+
+  <!-- OpenGraph -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Crypto-Steuer berechnen 2026: FIFO, Haltefrist und Freigrenze nach §23 EStG">
+  <meta property="og:description" content="Bitcoin, Ethereum & Co. richtig versteuern: 1-Jahres-Frist, FIFO-Methode, Freigrenze 1.000 €. Mit kostenlosem Rechner.">
+  <meta property="og:url" content="https://finanzkalkulatoren.com/blog/crypto-steuer-berechnen.html">
+  <meta property="og:site_name" content="Finanzkalkulatoren">
+  <meta property="og:image" content="https://finanzkalkulatoren.com/og-image.png">
+  <meta property="og:locale" content="de_DE">
+  <meta property="article:published_time" content="2026-05-07">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Crypto-Steuer berechnen 2026: FIFO, Haltefrist, Freigrenze">
+  <meta name="twitter:description" content="Bitcoin, Ethereum & Co. nach §23 EStG: FIFO, 1-Jahres-Frist, Freigrenze 1.000 €. Kostenloser Rechner.">
+  <meta name="twitter:image" content="https://finanzkalkulatoren.com/og-image.png">
+
+  <!-- JSON-LD Article -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Crypto-Steuer berechnen 2026: Bitcoin, FIFO und Freigrenze nach §23 EStG erklärt",
+    "description": "Steuer auf Krypto-Gewinne nach §23 EStG: 1-Jahres-Haltefrist, FIFO-Methode, Freigrenze 1.000 € und persönlicher ESt-Satz mit Rechenbeispielen.",
+    "datePublished": "2026-05-07",
+    "dateModified": "2026-05-07",
+    "url": "https://finanzkalkulatoren.com/blog/crypto-steuer-berechnen.html",
+    "inLanguage": "de",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://finanzkalkulatoren.com/blog/crypto-steuer-berechnen.html"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Finanzkalkulatoren",
+      "url": "https://finanzkalkulatoren.com"
+    },
+    "about": {
+      "@type": "Thing",
+      "name": "Kryptowährung Steuer"
+    }
+  }
+  </script>
+
+  <!-- JSON-LD HowTo -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": "Crypto-Steuer berechnen",
+    "description": "So berechnest du die Steuer auf deine Krypto-Gewinne nach §23 EStG.",
+    "step": [
+      {
+        "@type": "HowToStep",
+        "name": "Käufe (Lots) erfassen",
+        "text": "Datum, Menge, Preis pro Coin und Gebühren für jeden Kauf eintragen."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Verkauf erfassen",
+        "text": "Datum, verkaufte Menge, Preis pro Coin und Verkaufsgebühr eintragen."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "FIFO-Zuordnung",
+        "text": "Der älteste Kauf wird zuerst verbraucht. Daraus ergeben sich Anschaffungskosten und Haltedauer pro Lot."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Haltedauer prüfen",
+        "text": "Liegt die Haltedauer bei mehr als 1 Jahr (>365 Tage), ist der Gewinn aus diesem Lot steuerfrei."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Freigrenze prüfen",
+        "text": "Beträgt der steuerpflichtige Gewinn ≤ 1.000 € im Kalenderjahr, ist er komplett steuerfrei. Über 1.000 € wird der gesamte Gewinn steuerpflichtig."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Steuerbetrag berechnen",
+        "text": "Steuerbetrag = steuerpflichtiger Gewinn × persönlicher Einkommensteuersatz."
+      }
+    ]
+  }
+  </script>
+
+  <!-- JSON-LD FAQPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Wie lange muss ich Bitcoin halten, um keine Steuer zu zahlen?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Mehr als 1 Jahr (über 365 Tage). Wer am 1. Februar 2024 kauft und am 2. Februar 2025 oder später verkauft, ist steuerfrei. Bei einem Tag weniger ist der Gewinn voll steuerpflichtig."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Wie hoch ist die Freigrenze bei Krypto?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Seit 2024 gilt eine Freigrenze von 1.000 € pro Kalenderjahr (vorher 600 €). Achtung: Es ist eine Freigrenze, kein Freibetrag. Bei 1.000,01 € Gewinn wird der gesamte Gewinn steuerpflichtig."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Was bedeutet FIFO bei Krypto-Steuer?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "FIFO (First-In-First-Out) bedeutet: Beim Verkauf wird der älteste Kauf zuerst verbraucht. Das ist relevant für die Haltedauer und die Anschaffungskosten."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Wie wird Staking besteuert?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Staking-Erträge fallen nicht unter §23 EStG, sondern unter §22 Nr. 3 EStG (sonstige Einkünfte). Der Crypto-Steuer-Rechner deckt nur Veräußerungsgeschäfte ab."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="ads/ads.css">
+</head>
+<body>
+  <nav class="blog-nav" aria-label="Blog-Navigation">
+    <div class="blog-nav-inner">
+      <a href="/" class="blog-nav-brand">Finanzkalkulatoren</a>
+      <div class="blog-nav-links">
+        <a href="/de">Rechner</a>
+        <a href="/blog/">Blog</a>
+        <a href="/blog/en/crypto-tax-germany.html">EN</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="blog-content">
+    <article>
+      <header class="article-header">
+        <p class="article-tag">Steuern</p>
+        <h1 class="article-title">Crypto-Steuer berechnen 2026: Bitcoin, FIFO und Freigrenze nach §23 EStG erklärt</h1>
+        <p class="article-meta">7. Mai 2026 &middot; 11 Min. Lesezeit</p>
+      </header>
+
+      <div class="article-body">
+        <p>Wer 2026 Bitcoin, Ethereum oder andere Kryptowährungen mit Gewinn verkauft, kommt schnell mit dem Finanzamt in Berührung. Doch die Regeln sind günstiger, als viele denken: <strong>Nach mehr als einem Jahr Haltedauer sind Krypto-Gewinne komplett steuerfrei</strong>. Und auch unterhalb dieser Frist gibt es Spielraum durch die Freigrenze von 1.000 €. Mit unserem <a href="/de/crypto-steuer-rechner">Crypto-Steuer-Rechner</a> berechnest du deine Steuerlast in Sekunden — inklusive FIFO-Logik bei mehreren Käufen.</p>
+
+        <h2>Wie wird Krypto in Deutschland versteuert?</h2>
+        <p>Kryptowährungen gelten in Deutschland steuerlich als <strong>„andere Wirtschaftsgüter"</strong>. Damit fallen sie unter <strong>§ 23 EStG</strong> (private Veräußerungsgeschäfte) — nicht unter die Kapitalertragsteuer wie Aktien oder ETFs. Das hat zwei wichtige Konsequenzen:</p>
+        <ul>
+          <li>Gewinne werden mit dem <strong>persönlichen Einkommensteuersatz</strong> (0–45 %) versteuert, nicht pauschal mit 25 %.</li>
+          <li>Nach <strong>mehr als 1 Jahr Haltedauer</strong> ist der Gewinn vollständig <strong>steuerfrei</strong> — egal wie hoch er ausfällt.</li>
+        </ul>
+        <p>Wer den persönlichen Grenzsteuersatz nicht kennt, findet ihn im <a href="/de/einkommensteuerrechner">Einkommensteuerrechner</a>. Wer Aktien, ETFs oder Fonds versteuert, wechselt zum <a href="/de/kapitalertragsteuer-rechner">Kapitalertragsteuerrechner</a>.</p>
+
+        <h2>Die 1-Jahres-Haltefrist: ab wann ist Krypto steuerfrei?</h2>
+        <p>Die 1-Jahres-Haltefrist ist das Herzstück der deutschen Krypto-Besteuerung. Sie beginnt am Tag nach der Anschaffung und endet, sobald die Coins <strong>mehr als 365 Tage</strong> gehalten wurden.</p>
+
+        <blockquote>
+          <strong>Faustregel:</strong> Kauf am 1. Februar 2024 → steuerfrei ab 2. Februar 2025.<br>
+          Bei Verkauf am 1. Februar 2025 (genau 365 Tage) ist der Gewinn voll steuerpflichtig.
+        </blockquote>
+
+        <p>Maßgeblich ist das Datum der Transaktion (Trade-Datum), nicht der Tag der Gutschrift auf dem Wallet. Bei der Berechnung zählt jeder Lot einzeln — siehe FIFO-Abschnitt unten.</p>
+
+        <h2>Freigrenze 1.000 € — und warum das KEIN Freibetrag ist</h2>
+        <p>Liegt dein Gewinn aus privaten Veräußerungsgeschäften (Krypto + andere) unter <strong>1.000 € pro Kalenderjahr</strong>, ist er steuerfrei (§ 23 Abs. 3 Satz 5 EStG). Die Grenze gilt seit 2024 — vor 2024 lag sie bei 600 €.</p>
+
+        <p>Wichtig: Die 1.000 € sind eine <strong>Freigrenze</strong>, kein Freibetrag. Das bedeutet:</p>
+
+        <table>
+          <thead>
+            <tr><th>Gewinn</th><th>Steuerpflichtig</th><th>Steuer (bei 30 % ESt)</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>999,99 €</td><td>0 €</td><td>0 €</td></tr>
+            <tr><td>1.000,00 €</td><td>0 €</td><td>0 €</td></tr>
+            <tr><td>1.000,01 €</td><td><strong>1.000,01 €</strong></td><td>300,00 €</td></tr>
+            <tr><td>5.000,00 €</td><td>5.000,00 €</td><td>1.500,00 €</td></tr>
+          </tbody>
+        </table>
+
+        <p>Bei 1.000,01 € fällt also nicht nur auf 1 Cent Steuer an, sondern auf den <strong>gesamten Gewinn</strong>. Wer kurz vor Jahresende noch knapp über der Freigrenze liegt, kann durch realisierte Verluste die Schwelle wieder unterschreiten — das ist ein legitimer „Tax-Loss-Harvesting"-Ansatz.</p>
+
+        <h2>FIFO-Methode: ältester Kauf zuerst</h2>
+        <p>Wer mehrfach in Bitcoin investiert hat, muss bei einem Verkauf festlegen, welche Coins verkauft werden. Das deutsche Steuerrecht schreibt für Krypto die <strong>FIFO-Methode (First-In-First-Out)</strong> vor: Der älteste Kauf gilt als zuerst verkauft.</p>
+
+        <p>Das ist keine Schikane, sondern für Anleger oft günstig — denn alte Lots sind tendenziell günstiger gekauft, aber haben auch eine längere Haltedauer (und sind damit häufiger steuerfrei).</p>
+
+        <h3>Rechenbeispiel: FIFO mit zwei Käufen</h3>
+        <p>Du hast 2024 zwei BTC gekauft und verkaufst 1,5 BTC im August 2025:</p>
+        <ul>
+          <li>Lot 1: 1 BTC am 15.01.2024 für 35.000 €</li>
+          <li>Lot 2: 1 BTC am 10.06.2025 für 60.000 €</li>
+          <li>Verkauf: 1,5 BTC am 01.08.2025 für je 80.000 €</li>
+        </ul>
+        <p>FIFO-Zuordnung:</p>
+        <ul>
+          <li><strong>Lot 1 (1 BTC)</strong>: Haltedauer ca. 18 Monate → <strong>steuerfrei</strong>. Gewinn 80.000 − 35.000 = 45.000 € — fließt nicht in die Steuer ein.</li>
+          <li><strong>Lot 2 (0,5 BTC)</strong>: Haltedauer ca. 2 Monate → steuerpflichtig. Erlös 0,5 × 80.000 = 40.000 €, Anschaffung 0,5 × 60.000 = 30.000 €, Gewinn <strong>10.000 €</strong>.</li>
+        </ul>
+        <p>Bei 35 % ESt-Satz: <strong>3.500 € Steuer</strong>. Der Gewinn aus Lot 1 bleibt komplett steuerfrei.</p>
+
+        <div class="affiliate-banner" data-context="investing"></div>
+
+        <h2>Verluste verrechnen — aber nur innerhalb §23</h2>
+        <p>Krypto-Verluste sind verrechenbar — aber nur mit Gewinnen aus anderen privaten Veräußerungsgeschäften (Krypto, Immobilien, andere bewegliche Güter). Eine Verrechnung mit Lohn, Dividenden oder Kapitalerträgen ist <strong>nicht</strong> möglich.</p>
+
+        <p>Verluste lassen sich aber zeitlich verschieben:</p>
+        <ul>
+          <li><strong>Verlustrücktrag</strong> ins Vorjahr (auf Antrag)</li>
+          <li><strong>Verlustvortrag</strong> in unbegrenzte Zukunft (automatisch)</li>
+        </ul>
+
+        <h2>Was ist mit Staking, Lending und Mining?</h2>
+        <p>Diese Erträge fallen <strong>nicht</strong> unter §23 EStG, sondern unter §22 Nr. 3 EStG (sonstige Einkünfte). Wichtige Unterschiede:</p>
+        <ul>
+          <li>Freigrenze: 256 € pro Jahr (statt 1.000 €)</li>
+          <li>Keine 1-Jahres-Frist beim Auszahlen — die Erträge sind sofort steuerpflichtig</li>
+          <li>Bei späterem Verkauf der Staking-Rewards greift erneut die §23-Logik</li>
+        </ul>
+        <p>Der <a href="/de/crypto-steuer-rechner">Crypto-Steuer-Rechner</a> deckt nur Veräußerungsgeschäfte ab. Für Staking-Einkünfte ist eine separate Berechnung nötig.</p>
+
+        <h2>Verkaufskosten und Gas-Fees</h2>
+        <p>Die folgenden Kosten reduzieren deinen steuerpflichtigen Gewinn:</p>
+        <ul>
+          <li>Börsengebühren beim Kauf (erhöhen Anschaffungskosten)</li>
+          <li>Börsengebühren beim Verkauf (reduzieren Verkaufserlös)</li>
+          <li>Gas-Fees auf On-Chain-Transaktionen, sofern direkt zuordenbar</li>
+          <li>Spread bei OTC-Trades (in der Regel im Preis enthalten)</li>
+        </ul>
+        <p>Im Crypto-Steuer-Rechner gibst du Kauf- und Verkaufsgebühr separat ein — die FIFO-Logik teilt die Kaufgebühr automatisch anteilig auf die verkaufte Menge auf.</p>
+
+        <h2>Crypto-Steuer-Rechner nutzen</h2>
+        <p>Mit unserem kostenlosen <a href="/de/crypto-steuer-rechner">Crypto-Steuer-Rechner</a> berechnest du deine Steuer in Sekunden:</p>
+        <ol>
+          <li>Käufe (Lots) eingeben: Datum, Menge, Preis pro Coin, Gebühr</li>
+          <li>Beliebig viele Lots hinzufügen</li>
+          <li>Verkauf erfassen: Datum, Menge, Preis, Gebühr</li>
+          <li>Persönlichen ESt-Satz schieben (0–45 %)</li>
+          <li>Steuerstatus, steuerpflichtiger Gewinn, Steuerbetrag und Netto-Erlös werden sofort angezeigt</li>
+        </ol>
+
+        <h2>Häufige Fragen zur Crypto-Steuer</h2>
+
+        <h3>Muss ich Krypto-Gewinne in der Steuererklärung angeben?</h3>
+        <p>Ja, sobald sie steuerpflichtig sind (also unter 1 Jahr Haltedauer und über 1.000 € Freigrenze). Die Angabe erfolgt in der Anlage SO der Einkommensteuererklärung.</p>
+
+        <h3>Was passiert bei Tausch (BTC → ETH)?</h3>
+        <p>Ein Coin-zu-Coin-Tausch gilt steuerlich als Veräußerung des einen und Anschaffung des anderen Coins. Die 1-Jahres-Frist beginnt für den getauschten Coin neu.</p>
+
+        <h3>Wie hoch ist die Krypto-Steuer?</h3>
+        <p>Es gibt keinen Pauschalsatz. Der Gewinn wird mit dem persönlichen Einkommensteuersatz versteuert (Grundtarif 0–45 %, Reichensteuer ab 277.826 €). Mehr im <a href="/de/einkommensteuerrechner">Einkommensteuerrechner</a>.</p>
+
+        <h3>Kann das Finanzamt meine Wallet-Bewegungen sehen?</h3>
+        <p>Bei zentralen Börsen mit KYC (Bitvavo, Coinbase, Kraken etc.) sind die Daten potenziell zugänglich. Auch Chainalysis und ähnliche Forensik-Tools werden vom Finanzamt eingesetzt. Vollständigkeit und Ehrlichkeit sind essentiell.</p>
+
+        <h3>Was passiert bei einem Verlust?</h3>
+        <p>Verluste reduzieren den steuerpflichtigen Gewinn anderer privater Veräußerungsgeschäfte (Krypto, Immobilien). Bleibt am Jahresende ein Verlust übrig, lässt sich dieser ins Vorjahr zurück- oder in Folgejahre vortragen. Der Rechner zeigt einen negativen Gewinn als „Verlust" und setzt die Steuer auf 0 €.</p>
+      </div>
+    </article>
+
+    <nav class="article-related" aria-label="Verwandte Rechner">
+      <h2>Verwandte Rechner</h2>
+      <ul>
+        <li><a href="/de/spekulationssteuerrechner">Spekulationssteuerrechner</a> — Steuer auf private Veräußerungsgeschäfte (Immobilien, Krypto, Sonstiges)</li>
+        <li><a href="/de/kapitalertragsteuer-rechner">Kapitalertragsteuerrechner</a> — Abgeltungssteuer auf Aktien, ETFs und Zinsen</li>
+        <li><a href="/de/einkommensteuerrechner">Einkommensteuerrechner</a> — Persönlichen Einkommensteuersatz ermitteln</li>
+        <li><a href="/de/dividendenrechner">Dividendenrechner</a> — Dividenden mit Abgeltungssteuer und Soli berechnen</li>
+      </ul>
+    </nav>
+  </main>
+
+  <footer class="blog-footer">
+    <p>&copy; 2026 Finanzkalkulatoren &middot; <a href="/de/impressum">Impressum</a> &middot; <a href="/de/datenschutz">Datenschutz</a></p>
+  </footer>
+</body>
+</html>
