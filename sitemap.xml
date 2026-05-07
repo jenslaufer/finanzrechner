@@ -254,6 +254,18 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://finanzkalkulatoren.com/de/handwerkerkostenrechner/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://finanzkalkulatoren.com/de/handwerkerkostenrechner/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://finanzkalkulatoren.com/en/craftsman-tax-deduction-calculator/"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://finanzkalkulatoren.com/en/craftsman-tax-deduction-calculator/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://finanzkalkulatoren.com/de/handwerkerkostenrechner/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://finanzkalkulatoren.com/en/craftsman-tax-deduction-calculator/"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://finanzkalkulatoren.com/de/stundenlohnrechner/</loc>
     <xhtml:link rel="alternate" hreflang="de" href="https://finanzkalkulatoren.com/de/stundenlohnrechner/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://finanzkalkulatoren.com/en/hourly-wage-calculator/"/>
@@ -1059,6 +1071,18 @@
     <loc>https://finanzkalkulatoren.com/blog/en/german-property-tax-calculator.html</loc>
     <xhtml:link rel="alternate" hreflang="de" href="https://finanzkalkulatoren.com/blog/grundsteuer-berechnen.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://finanzkalkulatoren.com/blog/en/german-property-tax-calculator.html"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://finanzkalkulatoren.com/blog/handwerkerkosten-absetzen.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://finanzkalkulatoren.com/blog/handwerkerkosten-absetzen.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://finanzkalkulatoren.com/blog/en/craftsman-tax-deduction-germany.html"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://finanzkalkulatoren.com/blog/en/craftsman-tax-deduction-germany.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://finanzkalkulatoren.com/blog/handwerkerkosten-absetzen.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://finanzkalkulatoren.com/blog/en/craftsman-tax-deduction-germany.html"/>
     <priority>0.8</priority>
   </url>
   <url>
