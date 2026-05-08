@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>German Sales Tax (Umsatzsteuer) 2026: Net, Gross, Input VAT and Net Liability Explained</title>
+  <meta name="description" content="German Umsatzsteuer 2026: calculate VAT at 19 % or 7 % from net or gross, deduct input VAT (Vorsteuer) under §15 UStG and file the periodic USt-Voranmeldung. Worked examples, the small-business exemption (§19 UStG) and a free German sales tax calculator.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://finanzkalkulatoren.com/blog/en/german-sales-tax-explained.html">
+  <link rel="alternate" hreflang="de" href="https://finanzkalkulatoren.com/blog/umsatzsteuer-berechnen.html">
+  <link rel="alternate" hreflang="en" href="https://finanzkalkulatoren.com/blog/en/german-sales-tax-explained.html">
+
+  <!-- OpenGraph -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="German Sales Tax 2026: Net, Gross, Input VAT and Net Liability Explained">
+  <meta property="og:description" content="Calculate Umsatzsteuer from net or gross, deduct input VAT under §15 UStG and file the periodic VAT return — with worked examples.">
+  <meta property="og:url" content="https://finanzkalkulatoren.com/blog/en/german-sales-tax-explained.html">
+  <meta property="og:site_name" content="Finanzkalkulatoren">
+  <meta property="og:image" content="https://finanzkalkulatoren.com/og-image.png">
+  <meta property="og:locale" content="en_GB">
+  <meta property="article:published_time" content="2026-05-08">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="German Sales Tax 2026: VAT, Input VAT and Net Liability">
+  <meta name="twitter:description" content="How much VAT do you owe — and how much input VAT can you reclaim?">
+  <meta name="twitter:image" content="https://finanzkalkulatoren.com/og-image.png">
+
+  <!-- JSON-LD Article -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "German Sales Tax (Umsatzsteuer) 2026: Net, Gross, Input VAT and Net Liability Explained",
+    "description": "How to compute German VAT from net or gross, deduct input VAT under §15 UStG and report the net liability in the USt-Voranmeldung — with worked examples for freelancers and businesses.",
+    "datePublished": "2026-05-08",
+    "dateModified": "2026-05-08",
+    "url": "https://finanzkalkulatoren.com/blog/en/german-sales-tax-explained.html",
+    "inLanguage": "en",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://finanzkalkulatoren.com/blog/en/german-sales-tax-explained.html"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Finanzkalkulatoren",
+      "url": "https://finanzkalkulatoren.com"
+    },
+    "about": {
+      "@type": "Thing",
+      "name": "German VAT (Umsatzsteuer) and input VAT under UStG"
+    }
+  }
+  </script>
+
+  <!-- JSON-LD HowTo -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": "Calculate German VAT and file the USt-Voranmeldung",
+    "description": "Compute Umsatzsteuer from net or gross and report the net liability in the periodic VAT return.",
+    "step": [
+      { "@type": "HowToStep", "name": "Pick the rate", "text": "Standard rate 19 % under §12 (1) UStG, reduced rate 7 % under §12 (2) UStG for items such as food, books, hotel stays or local public transport." },
+      { "@type": "HowToStep", "name": "VAT from net", "text": "Multiply the net amount by the rate: €1,000 × 19 % = €190 VAT. Gross = Net + VAT." },
+      { "@type": "HowToStep", "name": "VAT from gross", "text": "Divide the gross amount by (1 + rate): €1,190 / 1.19 = €1,000 net. VAT = Gross − Net." },
+      { "@type": "HowToStep", "name": "Deduct input VAT", "text": "Sum the VAT you paid on supplier invoices in the period — deductible under §15 UStG provided the invoice meets §14 UStG requirements." },
+      { "@type": "HowToStep", "name": "Report the liability", "text": "Net liability = VAT collected − Input VAT. File via ELSTER by the 10th of the following month. A negative liability triggers a refund." }
+    ]
+  }
+  </script>
+
+  <!-- JSON-LD FAQPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is the difference between Umsatzsteuer and Mehrwertsteuer?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "There is no substantive difference. Umsatzsteuer is the legal term in the UStG; Mehrwertsteuer is the colloquial label. Invoices use both interchangeably."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "When does the reduced 7 % rate apply?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "§12 (2) UStG together with Annex 2 sets out an exhaustive list: food (excluding drinks), books, magazines, local public transport tickets, theatre and museum admission, hotel accommodation, live animals and plants. Restaurant meals were moved back to 19 % in 2024."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Who can deduct input VAT?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Any entrepreneur within the meaning of §2 UStG who is not a small business under §19 UStG may deduct the VAT shown on supplier invoices, provided the invoice meets the mandatory information requirements of §14 UStG and the supply was acquired for the business."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the small-business (Kleinunternehmer) exemption?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Under §19 UStG (raised from 2025), you do not charge VAT if your prior-year turnover was below €25,000 and expected current-year turnover does not exceed €100,000. In return you cannot deduct input VAT and every invoice must reference §19 UStG."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How often must I file the USt-Voranmeldung?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Monthly if last year's net liability exceeded €9,000 (and always monthly during the founding year and the year after). Quarterly between €2,000 and €9,000. Annual return only if the liability is below €2,000."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What happens with a negative net liability?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "If input VAT exceeds VAT collected (a Vorsteuerüberhang — typical during investment or start-up phases), the Finanzamt refunds the difference. A SEPA mandate or refund account on file is required. Larger refunds may trigger a documentation request before payout."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../ads/ads.css">
+</head>
+<body>
+  <nav class="blog-nav" aria-label="Blog Navigation">
+    <div class="blog-nav-inner">
+      <a href="/" class="blog-nav-brand">Finanzkalkulatoren</a>
+      <div class="blog-nav-links">
+        <a href="/en">Calculators</a>
+        <a href="/blog/en/">Blog</a>
+        <a href="/blog/umsatzsteuer-berechnen.html">DE</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="blog-content">
+    <article>
+      <header class="article-header">
+        <p class="article-tag">German Taxes</p>
+        <h1 class="article-title">German Sales Tax (Umsatzsteuer) 2026: Net, Gross, Input VAT and Net Liability Explained</h1>
+        <p class="article-meta">May 8, 2026 · 11 min read</p>
+      </header>
+
+      <div class="article-body">
+        <p>Umsatzsteuer (German sales tax / VAT) generates more revenue than any other German tax — and shows up on every invoice you write as a freelancer or business. Anyone who can <strong>compute VAT from net or gross</strong>, <strong>deduct input VAT under §15 UStG</strong> and <strong>report the net liability</strong> in the USt-Voranmeldung has the bulk of their bookkeeping under control. To skip the math, use the <a href="/en/sales-tax-calculator">German Sales Tax Calculator</a>.</p>
+
+        <h2>Umsatzsteuer, Mehrwertsteuer, Vorsteuer — what's what?</h2>
+        <p>The three terms get mixed up constantly. The relevant difference:</p>
+        <ul>
+          <li><strong>Umsatzsteuer (USt):</strong> The legal term from the UStG. Levied on every taxable supply by an entrepreneur.</li>
+          <li><strong>Mehrwertsteuer (MwSt):</strong> The colloquial label — used on invoices interchangeably with USt. The simpler <a href="/en/vat-calculator">VAT calculator</a> does the same conversion.</li>
+          <li><strong>Vorsteuer:</strong> The VAT <em>you</em> paid on supplier invoices. Deductible under §15 UStG.</li>
+        </ul>
+        <p>From a business perspective VAT is a <em>pass-through</em>: you collect it from your customers, deduct the VAT you paid yourself and remit the difference to the tax office.</p>
+
+        <h2>The two rates (§12 UStG)</h2>
+        <table>
+          <thead>
+            <tr><th>Rate</th><th>Basis</th><th>Typical examples</th></tr>
+          </thead>
+          <tbody>
+            <tr><td><strong>19 %</strong> standard</td><td>§12 (1) UStG</td><td>Services, electronics, clothing, restaurant meals, energy</td></tr>
+            <tr><td><strong>7 %</strong> reduced</td><td>§12 (2) UStG, Annex 2</td><td>Food, books, magazines, local public transport, hotel stays, theatre/museum admission</td></tr>
+            <tr><td><strong>0 %</strong> exempt</td><td>§4 UStG</td><td>Medical treatment, residential rent, insurance, intra-EU supply</td></tr>
+          </tbody>
+        </table>
+
+        <h2>Formula 1: VAT from net</h2>
+        <p>If you start from the net amount, the math is straightforward:</p>
+        <ul>
+          <li><strong>VAT = Net × Rate</strong></li>
+          <li><strong>Gross = Net × (1 + Rate)</strong></li>
+        </ul>
+        <p><em>Example:</em> A consulting service costs €1,000 net at 19 %:</p>
+        <ul>
+          <li>VAT: €1,000 × 0.19 = <strong>€190</strong></li>
+          <li>Gross: €1,000 + €190 = <strong>€1,190</strong></li>
+        </ul>
+
+        <h2>Formula 2: VAT out of gross</h2>
+        <p>From a gross amount you cannot multiply by 19 % — you have to <em>back it out</em>:</p>
+        <ul>
+          <li><strong>Net = Gross / (1 + Rate)</strong></li>
+          <li><strong>VAT = Gross − Net</strong></li>
+        </ul>
+        <p><em>Example:</em> An invoice for €119 gross at 19 %:</p>
+        <ul>
+          <li>Net: €119 / 1.19 = <strong>€100</strong></li>
+          <li>VAT (= input VAT): <strong>€19</strong></li>
+        </ul>
+        <p>At 7 %: €107 / 1.07 = €100 net, €7 VAT.</p>
+
+        <h2>Input VAT deduction (§15 UStG)</h2>
+        <p>Every entrepreneur (except Kleinunternehmer) may deduct the VAT shown on supplier invoices as <strong>Vorsteuer</strong>. Conditions:</p>
+        <ol>
+          <li>The invoice meets the mandatory information of <strong>§14 UStG</strong> (issuer and recipient name + address, tax number / VAT-ID, invoice date, sequential number, description of supply, supply date, net amount, rate, VAT amount).</li>
+          <li>The supply was <strong>acquired for the business</strong> (no private share).</li>
+          <li>The supply was <strong>actually performed</strong> (or paid, in case of advance payments).</li>
+        </ol>
+        <p>Miss a single mandatory line item and the tax office disallows the deduction. Worth a 30-second check before you pay.</p>
+
+        <h2>Net liability — what you actually transfer</h2>
+        <p>The <strong>net liability</strong> is the amount you remit through the USt-Voranmeldung:</p>
+        <p><strong>Net liability = VAT collected (sales) − Input VAT (purchases)</strong></p>
+        <p><em>Worked example — Q1 2026 of a German freelancer:</em></p>
+        <ul>
+          <li>Sales gross: €35,700 (= €30,000 net + €5,700 VAT at 19 %)</li>
+          <li>Supplier invoices with input VAT: €1,200 (software, hardware, travel)</li>
+          <li><strong>Net liability: 5,700 − 1,200 = €4,500</strong></li>
+        </ul>
+        <p>The freelancer transfers €4,500 by April 10 along with the electronic ELSTER VAT return.</p>
+
+        <h2>When is the USt-Voranmeldung due?</h2>
+        <table>
+          <thead>
+            <tr><th>Prior-year liability</th><th>Frequency</th><th>Deadline</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>over €9,000</td><td>monthly</td><td>10th of next month</td></tr>
+            <tr><td>€2,000 – €9,000</td><td>quarterly</td><td>10th after quarter-end</td></tr>
+            <tr><td>under €2,000</td><td>annual return only</td><td>July 31 of next year</td></tr>
+            <tr><td>founding year + next</td><td>monthly (mandatory)</td><td>10th of next month</td></tr>
+          </tbody>
+        </table>
+        <p>With a permanent extension (Dauerfristverlängerung, §46 UStDV — one-time application, 1/11 of the prior year's liability as a special advance payment) the deadline shifts by one month — strongly recommended for ongoing businesses.</p>
+
+        <h2>Input-VAT surplus — money back from the tax office</h2>
+        <p>When input VAT exceeds VAT collected (negative liability), the Finanzamt refunds the difference. Classic cases:</p>
+        <ul>
+          <li><strong>Start-up phase</strong> with high investment but few sales</li>
+          <li><strong>Intra-EU or export supplies</strong> (zero-rated under §6/§6a UStG, but input VAT fully deductible)</li>
+          <li><strong>Investment months</strong> with machinery, IT or vehicle purchases</li>
+        </ul>
+        <p>Refunds above roughly €7,500 often trigger a documentation request. Keep invoices in order — the retention period is 10 years (§14b UStG).</p>
+
+        <h2>Small-business exemption (§19 UStG)</h2>
+        <p>If your prior-year turnover stayed below <strong>€25,000</strong> and your expected current-year turnover does not exceed <strong>€100,000</strong>, you can opt for the Kleinunternehmer regime:</p>
+        <ul>
+          <li>You charge <strong>no VAT</strong> on your invoices — and must reference §19 UStG.</li>
+          <li>You <strong>cannot deduct input VAT</strong> on supplier invoices.</li>
+          <li>You file <strong>no quarterly/monthly returns</strong> — only a simplified annual declaration.</li>
+        </ul>
+        <p>Useful when your customers are private individuals or your input VAT is low. With B2B clients and large investments, opting out is usually better — but you are then locked in for five years.</p>
+
+        <h2>Common mistakes</h2>
+        <ul>
+          <li><strong>Multiplying gross by 19 %</strong> — wrong. €119 contains €19 VAT, not €22.61. Always divide by 1.19.</li>
+          <li><strong>Not checking mandatory invoice info</strong> — a missing tax number kills the input-VAT deduction.</li>
+          <li><strong>Mixing private and business shares</strong> — for a company car or phone, only the business portion is deductible.</li>
+          <li><strong>Missing the 10th-of-month deadline</strong> — late-filing surcharge up to 10 % of the liability plus 1 % per month interest.</li>
+          <li><strong>Small-amount invoices under €250</strong> — simplified info is enough (§33 UStDV), but rate and gross amount must still appear.</li>
+        </ul>
+
+        <h2>Optimisation tips</h2>
+        <ul>
+          <li><strong>Apply for the permanent extension</strong> — gains you one extra month on every monthly filing.</li>
+          <li><strong>Cash-basis taxation (Ist-Versteuerung)</strong> — available below €800,000 turnover (§20 UStG): VAT due only when the customer pays, not when invoiced. Saves cash flow.</li>
+          <li><strong>Book invoices immediately</strong> — claim input VAT in the period the invoice is received.</li>
+          <li><strong>Set up a SEPA direct debit</strong> — eliminates late-payment surcharges from forgotten transfers.</li>
+          <li><strong>Reverse charge for foreign B2B services</strong> — under §13b UStG you self-account for the VAT and deduct it as input VAT in the same return — net effect zero.</li>
+        </ul>
+
+        <h2>More useful calculators</h2>
+        <ul>
+          <li><a href="/en/sales-tax-calculator">German Sales Tax Calculator</a> — VAT from net/gross, input VAT and net liability in one go</li>
+          <li><a href="/en/vat-calculator">VAT Calculator</a> — quick gross/net conversion without input VAT</li>
+          <li><a href="/en/trade-tax-calculator">Trade Tax (Gewerbesteuer) Calculator</a> — base rate, multiplier and income-tax credit for the self-employed</li>
+          <li><a href="/en/income-tax-calculator">Income Tax (Einkommensteuer) Calculator</a> — what additional ESt is due on your profit alongside VAT?</li>
+        </ul>
+      </div>
+    </article>
+  </main>
+
+  <footer class="blog-footer">
+    <p>&copy; 2026 Finanzkalkulatoren · <a href="/en">All calculators</a> · <a href="/blog/en/">Blog</a></p>
+  </footer>
+</body>
+</html>
