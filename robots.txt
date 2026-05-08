@@ -2,4 +2,7 @@ User-agent: *
 Allow: /
 Allow: /blog/
 
+# LLMs
+# See https://finanzkalkulatoren.com/llms.txt
+
 Sitemap: https://finanzkalkulatoren.com/sitemap.xml
