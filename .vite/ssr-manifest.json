@@ -26,6 +26,7 @@
   "src/components/AdSlot.vue": [],
   "src/components/AffiliateBanner.vue": [],
   "src/components/BlogArticleLink.vue": [],
+  "src/components/RelatedCalculators.vue": [],
   "src/composables/usePageMeta.js": [],
   "src/composables/useVorfaelligkeit.js": [],
   "src/discovery.js": [],
