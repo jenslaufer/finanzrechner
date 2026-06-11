@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cash Discount (Skonto) in Germany 2026: Implied Annual Rate, Worth-it Test & Bookkeeping</title>
+  <meta name="description" content="Is the German cash discount (Skonto) worth taking? How to compute the implied annual rate of an early-payment discount with the commercial 360-day method, when to pull on a credit line to grab the discount, and how to book the entry under § 17 UStG — with a worked example and a free calculator.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://finanzkalkulatoren.com/blog/en/cash-discount-skonto-germany.html">
+  <link rel="alternate" hreflang="de" href="https://finanzkalkulatoren.com/blog/skonto-berechnen.html">
+  <link rel="alternate" hreflang="en" href="https://finanzkalkulatoren.com/blog/en/cash-discount-skonto-germany.html">
+
+  <!-- OpenGraph -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Cash Discount (Skonto) in Germany 2026: Implied Annual Rate and Worth-it Test">
+  <meta property="og:description" content="Why a 2 % cash discount on 10/30 terms implies over 36 % annual interest — and when it is still worth tapping an overdraft to take it.">
+  <meta property="og:url" content="https://finanzkalkulatoren.com/blog/en/cash-discount-skonto-germany.html">
+  <meta property="og:site_name" content="Finanzkalkulatoren">
+  <meta property="og:image" content="https://finanzkalkulatoren.com/og-image.png">
+  <meta property="og:locale" content="en_US">
+  <meta property="article:published_time" content="2026-06-10">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Cash Discount (Skonto) in Germany 2026: Implied Annual Rate and Worth-it Test">
+  <meta name="twitter:description" content="Why a 2 % cash discount on 10/30 terms implies over 36 % annual interest — and when it pays even if you finance it with an overdraft.">
+  <meta name="twitter:image" content="https://finanzkalkulatoren.com/og-image.png">
+
+  <!-- JSON-LD Article -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Cash Discount (Skonto) in Germany 2026: Implied Annual Rate, Worth-it Test & Bookkeeping",
+    "description": "Skonto as a mini-investment: implied annual rate via the commercial 360-day method, worth-it threshold versus overdraft and money-market rates, correct posting of the discount entry under § 17 UStG — with a worked example and a calculator.",
+    "datePublished": "2026-06-10",
+    "dateModified": "2026-06-10",
+    "url": "https://finanzkalkulatoren.com/blog/en/cash-discount-skonto-germany.html",
+    "inLanguage": "en",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://finanzkalkulatoren.com/blog/en/cash-discount-skonto-germany.html"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Finanzkalkulatoren",
+      "url": "https://finanzkalkulatoren.com"
+    },
+    "about": {
+      "@type": "Thing",
+      "name": "Cash Discount Calculator"
+    }
+  }
+  </script>
+
+  <!-- JSON-LD HowTo -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": "Decide whether to take a Skonto in 4 steps",
+    "description": "Step-by-step guide to deciding whether to use a German supplier's early-payment cash discount.",
+    "step": [
+      { "@type": "HowToStep", "name": "Read the invoice terms", "text": "Note the gross invoice amount, the discount rate in %, the discount period in days and the net payment term in days. A typical clause: '2 % cash discount within 10 days, net 30 days'." },
+      { "@type": "HowToStep", "name": "Compute the implied annual rate", "text": "Formula (commercial 360-day method): rate / (100 − rate) × 360 / (net term − discount period) × 100. For 2 / 10 / 30 the implied rate is roughly 36.73 % p.a." },
+      { "@type": "HowToStep", "name": "Compare to your alternative", "text": "Stack the implied rate against your overdraft (typically 8–12 % in Germany) or the savings-account yield you would forgo. If Skonto is higher, take it — even if you have to tap the credit line." },
+      { "@type": "HowToStep", "name": "Book the entry correctly", "text": "Cash discount lowers both the expense (or revenue) and the input VAT (or output VAT). DATEV SKR03 splits the net amount onto the expense account and the VAT correction onto 1576/1406. The legal basis is § 17 UStG: the taxable amount is corrected at the time of payment." }
+    ]
+  }
+  </script>
+
+  <!-- JSON-LD FAQPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is the implied annual rate of a 2 % cash discount on 10/30 terms?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Using the commercial 360-day method, a 2 % cash discount with a 10-day discount period and a 30-day net term implies an effective annual rate of about 36.73 %. That is well above any normal overdraft cost — taking the discount is almost always the better deal."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Should I take the discount even if I have to draw on an overdraft?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "As long as the implied annual rate of the Skonto is higher than your overdraft rate, taking the discount and financing it on the credit line nets a profit. At 2 / 10 / 30 the discount yields ~36.7 % p.a., so an 8–12 % overdraft still leaves a clear gain. Only for very small discount rates or long delays between discount period and net term does the math flip."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How is Skonto booked correctly in German accounting?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The discount lowers both the expense (or revenue) and the corresponding VAT under § 17 UStG. In DATEV SKR03 the net discount is booked against the expense account (e.g. 3400 Wareneingang), and the input VAT correction goes to 1576 (19 %) or 1571 (7 %) against the bank account. Most accounting tools split this automatically once the discount flag is set on the payment."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the difference between Rabatt, Bonus and Skonto?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Rabatt is a price reduction at the moment of purchase (e.g. volume discount) that lowers the invoice amount directly. Bonus is a retroactive rebate, usually tied to annual turnover. Skonto is a discount granted for early payment — it rewards the timing of the payment, not the order size."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can a buyer just deduct Skonto without an explicit agreement?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. Cash discount must be agreed between supplier and buyer — either contractually, in the general terms or via a clause on the invoice itself ('2 % cash discount within 10 days'). A unilateral deduction without basis leaves the difference as an open receivable and may trigger statutory default interest under § 288 BGB."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../ads/ads.css">
+</head>
+<body>
+  <nav class="blog-nav" aria-label="Blog Navigation">
+    <div class="blog-nav-inner">
+      <a href="/" class="blog-nav-brand">Finanzkalkulatoren</a>
+      <div class="blog-nav-links">
+        <a href="/en">Calculators</a>
+        <a href="/blog/en/">Blog</a>
+        <a href="/blog/skonto-berechnen.html">DE</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="blog-content">
+    <article>
+      <header class="article-header">
+        <p class="article-tag">Accounting &amp; Finance</p>
+        <h1 class="article-title">Cash Discount (Skonto) in Germany 2026: Implied Annual Rate, Worth-it Test & Bookkeeping</h1>
+        <p class="article-meta">June 10, 2026 &middot; 10 min read</p>
+      </header>
+
+      <div class="article-body">
+        <p>"2 % cash discount within 10 days, otherwise net 30." — almost every German supplier invoice carries this clause. Two percent looks tiny. Annualised, the discount equals an effective interest rate of more than <strong>36 % p.a.</strong> Put differently: the supplier pays you handsomely for transferring the money 20 days earlier. Once you have internalised that, you take the cash discount almost every time — even if it means tapping your overdraft. The <a href="/en/cash-discount-calculator">cash discount calculator</a> gives the first verdict in under a minute.</p>
+
+        <h2>What exactly is Skonto?</h2>
+        <p>Skonto is the German term for a <strong>cash discount granted for early payment</strong>. The supplier gives the buyer a percentage off the invoice if it is paid within a short window (Skontofrist, the discount period). If the buyer waits until the net payment term, the full amount is due. The typical clause reads:</p>
+        <blockquote>
+          <p>Payable within <strong>10 days less 2 % cash discount</strong>, otherwise <strong>net within 30 days</strong>.</p>
+        </blockquote>
+        <p>For the supplier, Skonto is cheap refinancing: cash arrives faster, payables can be settled, the credit line is spared. For the buyer, it is a small investment with a surprisingly high return — exactly how high, the annual-rate formula below makes obvious. If the invoice carries no Skonto clause at all, the default case is <strong>net payment without deduction</strong> — and if you slip past the net term, the <a href="/en/default-interest-calculator">default interest calculator</a> tells you what late payment costs.</p>
+
+        <h2>Rabatt, Bonus, Skonto — what is the difference?</h2>
+        <table>
+          <thead>
+            <tr><th>Term</th><th>Timing</th><th>Basis</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Rabatt</td><td>at contract / order</td><td>list price (volume, loyalty)</td></tr>
+            <tr><td>Bonus</td><td>retroactive</td><td>annual turnover, extra volume</td></tr>
+            <tr><td><strong>Skonto</strong></td><td>at payment</td><td>gross invoice amount</td></tr>
+          </tbody>
+        </table>
+        <p>Rabatt and Bonus reduce the <em>invoice</em> directly. Skonto kicks in <strong>only when you pay</strong>, lowering the amount you actually transfer.</p>
+
+        <h2>Computing the discount amount and the payment</h2>
+        <p>The discount amount and the net payment are simple proportions:</p>
+        <p><strong>Discount amount</strong> = Invoice amount × discount rate / 100<br>
+        <strong>Net payment</strong> = Invoice amount − discount amount</p>
+        <p>For an invoice of €1,000 with a 2 % discount:</p>
+        <ul>
+          <li>Discount amount = €1,000 × 2 % = <strong>€20</strong></li>
+          <li>Net payment = €1,000 − €20 = <strong>€980</strong></li>
+        </ul>
+        <p>Trivial so far. The interesting question follows: if you transfer €980 instead of €1,000 and pay 20 days earlier — how attractive is that, really?</p>
+
+        <h2>The implied annual rate — the real argument for taking Skonto</h2>
+        <p>Paying early costs you liquidity: 20 days early means 20 days without that cash. To compare it cleanly with other uses of money, you annualise the discount as if it were an interest rate on the foregone use of cash. German practice uses the <em>commercial 360-day method</em> (30/360 day-count):</p>
+        <p><strong>Implied rate p.a.</strong> = rate / (100 − rate) × 360 / (net term − discount period) × 100</p>
+        <p>Plug in the standard 2 / 10 / 30 terms:</p>
+        <p>2 / (100 − 2) × 360 / (30 − 10) × 100 = 2 / 98 × 360 / 20 × 100 = <strong>36.73 % p.a.</strong></p>
+        <p>Translation: if you skip the discount and use the extra 20 days of payment term, you are effectively borrowing the discount amount from the supplier at 36.7 % per year. That is higher than any normal overdraft rate (typically 8–12 % in Germany) and often higher than a consumer loan (see the <a href="/en/loan-calculator">loan calculator</a>).</p>
+
+        <h3>Rule-of-thumb table for common terms</h3>
+        <table>
+          <thead>
+            <tr><th>Discount</th><th>Period / term</th><th>Implied annual rate</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>1 %</td><td>10 / 30</td><td>~18.2 %</td></tr>
+            <tr><td>2 %</td><td>10 / 30</td><td>~36.7 %</td></tr>
+            <tr><td>3 %</td><td>10 / 30</td><td>~55.7 %</td></tr>
+            <tr><td>2 %</td><td>14 / 30</td><td>~45.9 %</td></tr>
+            <tr><td>2 %</td><td>10 / 60</td><td>~14.7 %</td></tr>
+            <tr><td>2 %</td><td>10 / 90</td><td>~9.2 %</td></tr>
+          </tbody>
+        </table>
+        <p>Pattern: long net terms compress the implied rate. Past about 90 days of difference, the case for Skonto becomes marginal in a low-rate environment. At two weeks of difference, taking the discount is almost a no-brainer.</p>
+
+        <h2>When Skonto is worth even an overdraft draw</h2>
+        <p>Rule of thumb: as long as the <strong>implied Skonto rate exceeds your overdraft rate</strong>, taking the discount is cheaper than letting the cash sit on the credit line. The worth-it threshold is simply:</p>
+        <p>Implied rate (Skonto) &gt; alternative rate (overdraft or forgone yield)</p>
+        <p>Concrete scenario:</p>
+        <ul>
+          <li>Invoice: €10,000 gross, 2 / 10 / 30</li>
+          <li>Discount amount: €200, net payment: €9,800</li>
+          <li>Overdraft rate: 10 % p.a.</li>
+          <li>Overdraft cost for 20 days on €9,800: 9,800 × 10 % × 20 / 360 ≈ <strong>€54.44</strong></li>
+          <li>Net saving: €200 discount − €54.44 overdraft cost = <strong>~€145 profit</strong></li>
+        </ul>
+        <p>The same logic applies to the yield you would forgo on a savings account or money-market fund (see <a href="/en/savings-account-comparison">savings account comparison</a>) — the sign is the same, only the opportunity cost replaces the borrowing cost.</p>
+
+        <h2>Worked example: €25,000 component invoice, 3 / 14 / 30</h2>
+        <p>A workshop receives a €25,000 gross invoice with the clause "3 % cash discount within 14 days, otherwise net 30". The owner weighs whether to take the discount and finance it via the overdraft (9 % p.a.).</p>
+        <table>
+          <thead>
+            <tr><th>Item</th><th>Calculation</th><th>Amount</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Discount amount</td><td>€25,000 × 3 %</td><td>€750</td></tr>
+            <tr><td>Net payment</td><td>€25,000 − €750</td><td>€24,250</td></tr>
+            <tr><td>Implied rate (Skonto)</td><td>3 / 97 × 360 / 16 × 100</td><td>~69.6 % p.a.</td></tr>
+            <tr><td>Overdraft cost, 16 days on €24,250</td><td>24,250 × 9 % × 16 / 360</td><td>~€97</td></tr>
+            <tr><td><strong>Net benefit of taking the discount</strong></td><td>€750 − €97</td><td><strong>~€653</strong></td></tr>
+          </tbody>
+        </table>
+        <p>Even financed via the overdraft, taking the discount nets the business almost 90 % more than waiting for day 30.</p>
+
+        <h2>Booking Skonto correctly under § 17 UStG</h2>
+        <p>Booking the discount is one of the most common DATEV slip-ups in small German books. The key principle: <strong>Skonto follows § 17 UStG</strong> — the original taxable amount and the input VAT are corrected at the time of payment. In SKR03/SKR04 that looks like this:</p>
+
+        <h3>Inbound invoice with cash discount (supplier)</h3>
+        <table>
+          <thead>
+            <tr><th>Step</th><th>Debit</th><th>Credit</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Original posting of invoice</td><td>3400 Wareneingang / 1576 input VAT</td><td>1600 Trade payables</td></tr>
+            <tr><td>Payment net of discount</td><td>1600 Trade payables</td><td>1200 Bank + 3736 Supplier Skonto + 1576 input VAT reversal</td></tr>
+          </tbody>
+        </table>
+        <p>DATEV, lexoffice and sevDesk all automate the split as soon as the payment carries the Skonto flag. The important rule: <em>always book Skonto on the gross amount</em> — the tool splits net vs. VAT for you.</p>
+
+        <h3>Outbound invoice with cash discount (buyer takes Skonto)</h3>
+        <p>Mirror image on the revenue side: the customer pays €980 instead of €1,000. You book:</p>
+        <ul>
+          <li>Bank €980 against Receivables €1,000</li>
+          <li>Revenue reduction: 8400 Revenue €16.81 + 1776 Output VAT correction €3.19 (at 19 %)</li>
+        </ul>
+        <p>If you also issue invoices, keep the VAT side under control — the <a href="/en/sales-tax-calculator">sales tax calculator</a> gives a quick gross/net split.</p>
+
+        <h2>Common mistakes</h2>
+        <h3>Deducting Skonto unilaterally</h3>
+        <p>If the invoice does not contain a discount clause and you still deduct it, the remainder stays as a receivable on the supplier's books — after 30 days you can even owe statutory default interest under § 288 BGB. When in doubt, ask the supplier and get the discount confirmed in writing.</p>
+
+        <h3>Discounting freight or packaging</h3>
+        <p>Skonto applies only to the goods. Freight, packaging surcharges, insurance and customs duties are typically <em>not eligible</em>. If you blindly apply 2 % to the gross total, you underpay — and the supplier will come back for the gap.</p>
+
+        <h3>Misreading the discount period</h3>
+        <p>The decisive date is usually the <strong>value date at the supplier</strong>, not the day you push the transfer. A payment initiated late on day 10 may arrive on day 11 — too late. Rule of thumb: trigger Skonto payments 2–3 banking days before the deadline, especially for SEPA transfers across borders.</p>
+
+        <h3>Booking without VAT correction</h3>
+        <p>Posting the cash discount only against the bank account and skipping the input VAT correction means deducting too much VAT — a classic finding in a German tax audit. Most bookkeepers learn this once; afterwards the tool handles it automatically.</p>
+
+        <h2>Bottom line</h2>
+        <p>Skonto looks small and is anything but. A 2 % discount on 10/30 terms corresponds to an implied annual rate of <strong>~36.7 % p.a.</strong> — higher than any sensible loan, higher than any honest savings yield. As long as you have the liquidity (or a credit line cheaper than the implied rate), taking Skonto is almost always the right move. Run the test in 30 seconds with the <a href="/en/cash-discount-calculator">cash discount calculator</a>; compare with late-payment cost in the <a href="/en/default-interest-calculator">default interest calculator</a>; and keep the bookkeeping clean by checking the taxable basis in the <a href="/en/sales-tax-calculator">sales tax calculator</a>.</p>
+      </div>
+    </article>
+  </main>
+</body>
+</html>
