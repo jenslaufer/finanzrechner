@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Default Interest in Germany 2026: § 288 BGB, Base Rate and the Daily Formula</title>
+  <meta name="description" content="How do you compute statutory default interest under § 288 BGB? Bundesbank base rate + 5 percentage points against consumers, + 9 percentage points between businesses, the daily interest formula on a 365-day year, when default starts under § 286 BGB (reminder, 30-day rule, fixed payment date) — with worked example and a free default interest calculator.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://finanzkalkulatoren.com/blog/en/default-interest-germany.html">
+  <link rel="alternate" hreflang="de" href="https://finanzkalkulatoren.com/blog/verzugszinsen-berechnen.html">
+  <link rel="alternate" hreflang="en" href="https://finanzkalkulatoren.com/blog/en/default-interest-germany.html">
+
+  <!-- OpenGraph -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Default Interest in Germany 2026: § 288 BGB, Base Rate and the Daily Formula">
+  <meta property="og:description" content="How to compute statutory default interest under § 288 BGB — base rate, the 5/9 percentage-point surcharge and when default starts, with a worked example.">
+  <meta property="og:url" content="https://finanzkalkulatoren.com/blog/en/default-interest-germany.html">
+  <meta property="og:site_name" content="Finanzkalkulatoren">
+  <meta property="og:image" content="https://finanzkalkulatoren.com/og-image.png">
+  <meta property="og:locale" content="en_US">
+  <meta property="article:published_time" content="2026-06-11">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Default Interest in Germany 2026: § 288 BGB, Base Rate and the Daily Formula">
+  <meta name="twitter:description" content="Statutory default interest in Germany: base rate, the 5/9 percentage-point surcharge and when default starts under § 286 BGB.">
+  <meta name="twitter:image" content="https://finanzkalkulatoren.com/og-image.png">
+
+  <!-- JSON-LD Article -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Default Interest in Germany 2026: § 288 BGB, Base Rate and the Daily Formula",
+    "description": "Statutory default interest under § 288 BGB: base rate + 5 % for consumer claims, + 9 % between businesses, daily interest formula and when default starts under § 286 BGB — with worked example and a free calculator.",
+    "datePublished": "2026-06-11",
+    "dateModified": "2026-06-11",
+    "url": "https://finanzkalkulatoren.com/blog/en/default-interest-germany.html",
+    "inLanguage": "en",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://finanzkalkulatoren.com/blog/en/default-interest-germany.html"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Finanzkalkulatoren",
+      "url": "https://finanzkalkulatoren.com"
+    },
+    "about": {
+      "@type": "Thing",
+      "name": "Default Interest Calculator"
+    }
+  }
+  </script>
+
+  <!-- JSON-LD HowTo -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": "Compute German default interest in 5 steps",
+    "description": "Step-by-step guide to default interest under § 288 BGB — when default starts, the base rate, the surcharge, the daily formula and the total claim.",
+    "step": [
+      { "@type": "HowToStep", "name": "Identify when default started", "text": "Default starts automatically if the contract sets a fixed payment date; otherwise it needs a reminder. For monetary claims it starts at the latest 30 days after the invoice was received (§ 286 (3) BGB) — for consumers only if the invoice explicitly states this consequence." },
+      { "@type": "HowToStep", "name": "Classify the debtor", "text": "Consumer: surcharge of 5 percentage points (§ 288 (1) BGB). Business-to-business without any consumer party: surcharge of 9 percentage points (§ 288 (2) BGB). Whenever a consumer is involved, the lower rate applies." },
+      { "@type": "HowToStep", "name": "Look up the current base rate", "text": "The Bundesbank publishes the German base rate twice a year (1 January and 1 July). It currently stands at 1.27 %. When the base rate is negative, the surcharge alone forms the minimum default rate." },
+      { "@type": "HowToStep", "name": "Apply the daily formula", "text": "Default interest = claim × default rate × days / 365. In leap years divide by 366. The commercial 360-day method is not allowed for statutory default interest in Germany." },
+      { "@type": "HowToStep", "name": "Build the total claim", "text": "Principal + default interest + the € 40 flat fee on B2B invoices (§ 288 (5) BGB) + reasonable collection costs. Reminder and collection fees against consumers are only refundable within narrow limits." }
+    ]
+  }
+  </script>
+
+  <!-- JSON-LD FAQPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "When does default start under § 286 BGB?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Default starts when the debtor has been reminded after the claim became due. If the contract sets a fixed payment date (e.g. 'payable by 15 May'), default starts automatically without a reminder. For monetary claims against consumers, default starts 30 days after the invoice is received — but only if the invoice expressly states this consequence."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the statutory default interest rate in Germany 2026?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "With a base rate of 1.27 %, the statutory default rate is 6.27 % p.a. for consumers (base rate + 5 percentage points) and 10.27 % p.a. between businesses (base rate + 9 percentage points). The base rate is reset every six months."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How is the daily interest computed?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Default interest = claim × rate × days / 365. Example: open consumer claim of € 1,000, 30 days in default, base rate 1.27 % + 5 % = 6.27 %. Interest = 1,000 × 0.0627 × 30 / 365 = € 5.15."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the € 40 flat fee?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In B2B transactions the creditor can claim an additional € 40 flat compensation under § 288 (5) BGB without any further proof. It is offset against any reminder fee and does not apply against consumers."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I add reminder, collection or lawyer fees?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The calculator only shows default interest. Reminder fees (postage/paper) are refundable as damages, but for consumer claims case law usually caps them at modest amounts (often € 2.50 per reminder). Collection and lawyer fees are only refundable to the extent that they were necessary for enforcement — courts review this strictly."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../ads/ads.css">
+</head>
+<body>
+  <nav class="blog-nav" aria-label="Blog Navigation">
+    <div class="blog-nav-inner">
+      <a href="/" class="blog-nav-brand">Finanzkalkulatoren</a>
+      <div class="blog-nav-links">
+        <a href="/en">Calculators</a>
+        <a href="/blog/en/">Blog</a>
+        <a href="/blog/verzugszinsen-berechnen.html">DE</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="blog-content">
+    <article>
+      <header class="article-header">
+        <p class="article-tag">Law &amp; Receivables</p>
+        <h1 class="article-title">Default Interest in Germany 2026: § 288 BGB, Base Rate and the Daily Formula</h1>
+        <p class="article-meta">June 11, 2026 &middot; 10 min read</p>
+      </header>
+
+      <div class="article-body">
+        <p>An invoice goes unpaid in Germany — from which day can you legally add interest? Statutory default interest (<em>Verzugszinsen</em>) is not a bonus charge. It is the damages a creditor is entitled to under German law for the time their money was missing. The mechanics live in § 288 BGB, the start date in § 286 BGB. Apply them correctly and you have an enforceable claim; get them wrong and the court will trim the bill. The <a href="/en/default-interest-calculator">default interest calculator</a> gives a quick, defensible number in 30 seconds.</p>
+
+        <h2>Default interest vs contract interest — a key distinction</h2>
+        <p>Default interest is <strong>statutory damages</strong> for late payment of a due monetary claim. It accrues automatically once the debtor is in default — no contractual clause needed. It is different from:</p>
+        <ul>
+          <li><strong>Contract interest</strong> on a loan (the <a href="/en/loan-calculator">loan calculator</a> works out the annuity from the agreed rate).</li>
+          <li><strong>Cash discount (Skonto)</strong> as a reward for early payment — see the <a href="/en/cash-discount-calculator">cash discount calculator</a>.</li>
+          <li><strong>Maturity interest</strong> under § 353 HGB (5 % between merchants from the due date, even without default).</li>
+        </ul>
+
+        <h2>1. When does default start? § 286 BGB</h2>
+        <p>Default interest only runs from the moment the debtor is in default — which requires three things: the claim is <strong>due</strong>, the debtor has <strong>not paid</strong>, and (usually) a <strong>reminder</strong> has been sent. § 286 BGB names three situations where the reminder is unnecessary:</p>
+        <ul>
+          <li><strong>Fixed payment date</strong> — invoice text such as "payable by 15 June 2026" or "14 days after delivery" is enough.</li>
+          <li><strong>30-day rule (§ 286 (3) BGB)</strong> — monetary claims fall into default 30 days after the invoice was received, when the debtor is a business. Against consumers the rule only works if the invoice expressly states this consequence.</li>
+          <li><strong>Serious and final refusal to pay</strong> — the debtor declares they will not pay.</li>
+        </ul>
+        <p>Practical rule: note the date of the first reminder, otherwise note the due date + 30 days. Days in default count from that date.</p>
+
+        <h2>2. Consumer or business?</h2>
+        <p>The surcharge depends on the debtor's status:</p>
+        <ul>
+          <li><strong>§ 288 (1) BGB — consumer</strong>: base rate + <strong>5 percentage points</strong>. Applies whenever at least one party is a consumer (§ 13 BGB).</li>
+          <li><strong>§ 288 (2) BGB — B2B</strong>: base rate + <strong>9 percentage points</strong>. Applies only between businesses, with no consumer involved.</li>
+        </ul>
+        <p>A freelancer billing a private customer can only claim 5 percentage points — even though they are a business themselves. What counts is the status of the <em>debtor</em>.</p>
+
+        <h2>3. The base rate — reset every six months</h2>
+        <p>The German base rate under § 247 BGB is published twice a year by the <strong>Deutsche Bundesbank</strong> (1 January and 1 July). It is not the ECB policy rate; it is derived from the main refinancing operation. Historical range since introduction:</p>
+        <table>
+          <thead>
+            <tr><th>Period</th><th>Base rate</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>2002</td><td>2.57 %</td></tr>
+            <tr><td>2011 (January)</td><td>0.12 %</td></tr>
+            <tr><td>July 2016 – June 2022</td><td>−0.88 %</td></tr>
+            <tr><td>2024 (January)</td><td>3.62 %</td></tr>
+            <tr><td>2024 (July)</td><td>3.37 %</td></tr>
+            <tr><td>2026 (current)</td><td>1.27 %</td></tr>
+          </tbody>
+        </table>
+        <p>When the base rate was negative, the surcharge (5 or 9 percentage points) was the <em>minimum</em> default rate — the surcharge does not slide into negative territory.</p>
+
+        <h2>4. The daily interest formula</h2>
+        <p>For statutory default interest the formula is uniform and simple:</p>
+        <p style="text-align:center;"><strong>Default interest = claim × rate × days / 365</strong></p>
+        <p>Important details:</p>
+        <ul>
+          <li><strong>365 days, not 360</strong> — the commercial 360-day convention used for the <a href="/en/cash-discount-calculator">cash discount</a> calculation is <em>not</em> permitted here. Statutory default interest is computed day by day on the actual calendar.</li>
+          <li><strong>Leap years</strong> — if the default period falls into a leap year, divide proportionally by 366.</li>
+          <li><strong>Gross claim is the base</strong> — default interest applies to the gross amount (VAT included), because the VAT is part of the contractual debt.</li>
+          <li><strong>Default interest itself is not subject to VAT</strong> — it is genuine damages, not a service.</li>
+        </ul>
+
+        <h2>5. Worked example — consumer claim</h2>
+        <p>A repair shop invoices € 1,500 (gross). The invoice carries the required 30-day notice, dated 1 April 2026, received on 3 April. The customer only pays on 30 June 2026 — default started on 4 May (once the 30 days from receipt had elapsed); the period to 30 June is <strong>58 days</strong>.</p>
+        <table>
+          <thead>
+            <tr><th>Item</th><th>Calculation</th><th>Amount</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Base rate</td><td>Bundesbank</td><td>1.27 %</td></tr>
+            <tr><td>Surcharge § 288 (1)</td><td>+5.00 percentage points</td><td>5.00 %</td></tr>
+            <tr><td>Default rate</td><td>1.27 % + 5.00 %</td><td>6.27 % p.a.</td></tr>
+            <tr><td>Daily interest</td><td>1,500 × 0.0627 × 58 / 365</td><td>€ 14.94</td></tr>
+            <tr><td>Total claim</td><td>€ 1,500 + € 14.94</td><td><strong>€ 1,514.94</strong></td></tr>
+          </tbody>
+        </table>
+        <p>For a B2B transaction (e.g. the same workshop billing a tradesperson) the rate would be 10.27 % p.a. and interest € 24.48 — plus the € 40 flat fee under § 288 (5) BGB. A foregone cash discount cannot be folded into the default rate; the statutory rate is fixed.</p>
+
+        <h2>6. Reminder, collection and lawyer fees</h2>
+        <p>Default interest is not the only claim in a default scenario — but the other items are tightly limited:</p>
+        <ul>
+          <li><strong>€ 40 flat fee (§ 288 (5) BGB)</strong> — B2B only, no proof of damages required, once per invoice.</li>
+          <li><strong>Reminder fees</strong> — against consumers, German case law usually allows only material/postage (often € 2.50 per reminder). The first reminder is generally not refundable, because it is the precondition of default.</li>
+          <li><strong>Collection costs</strong> — the Federal Court (BGH) only allows them to the extent they were necessary for enforcement. For simple dunning that often covers no more than a 0.9 fee under RVG.</li>
+          <li><strong>Lawyer fees</strong> — refundable as default damages if the debtor would not pay otherwise. The fee scales with the value in dispute (= principal without default interest).</li>
+        </ul>
+
+        <h2>7. What the calculator does <em>not</em> cover</h2>
+        <p>The <a href="/en/default-interest-calculator">default interest calculator</a> deliberately only computes the statutory claim under § 288 BGB — principal, base rate, surcharge and days. Out of scope:</p>
+        <ul>
+          <li>Reminder, collection and lawyer fees — these depend on the facts and have no formula.</li>
+          <li>A base-rate change inside the default period — for long defaults across 1 January or 1 July, the period must be split and computed with two different rates.</li>
+          <li>Damages above the statutory rate (e.g. higher refinancing cost) — covered by § 288 (4) BGB, but requires concrete proof.</li>
+          <li>Court fees from a formal payment order procedure.</li>
+        </ul>
+
+        <h2>Typical mistakes</h2>
+        <h3>Forgetting to send a reminder</h3>
+        <p>Without a reminder and without a fixed payment date there is no default — and no single day of default interest. Anyone writing invoices should embed "payable by ..." as a standing clause.</p>
+
+        <h3>Charging 9 % against a consumer</h3>
+        <p>The higher surcharge under § 288 (2) BGB only applies between businesses. Used against a private customer, it gets cut down in the payment order.</p>
+
+        <h3>Using the 360-day method</h3>
+        <p>The commercial 360-day method is standard in banking and required for the <a href="/en/cash-discount-calculator">cash discount</a> formula, but is not allowed for statutory default interest. Always divide by 365 (366 in a leap year).</p>
+
+        <h3>Compounding the default interest</h3>
+        <p>Compounding default interest is excluded under § 289 sentence 1 BGB. The daily formula runs linearly on the principal — never on interest already accrued. For genuine compounding effects see the <a href="/en/compound-interest-calculator">compound interest calculator</a>.</p>
+
+        <h3>Ignoring the half-year base-rate change</h3>
+        <p>If the default period crosses 1 January or 1 July, the base rate often changes. The correct treatment is to split the period: days before the change with the old rate, days after with the new — then sum.</p>
+
+        <h2>Bottom line</h2>
+        <p>Statutory default interest in Germany is tightly codified — the hard part is not the maths but proving when default started and classifying the debtor correctly. Invoices with a fixed payment date cut the reminder discussion out entirely. In B2B the rate (9 percentage points) and the € 40 flat fee together are a real nudge for on-time payment. Start with the <a href="/en/default-interest-calculator">default interest calculator</a>; for the early-payment trade-off use the <a href="/en/cash-discount-calculator">cash discount calculator</a>, and for ordinary credit interest the <a href="/en/loan-calculator">loan calculator</a> or the <a href="/en/compound-interest-calculator">compound interest calculator</a>.</p>
+      </div>
+    </article>
+  </main>
+</body>
+</html>
